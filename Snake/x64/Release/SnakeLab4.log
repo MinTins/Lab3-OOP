@@ -1,0 +1,39 @@
+﻿  block.cpp
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(35,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(36,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(86,17): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(86,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(86,24): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\block.cpp(86,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  opengl.cpp
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(140,23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(225,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(225,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(225,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,32): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,32): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,41): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,41): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,50): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\opengl.cpp(233,50): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+  snake.cpp
+  SnakeGame.cpp
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\SnakeGame.cpp(39,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\SnakeGame.cpp(291,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\SnakeGame.cpp(292,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  glad.c
+opengl.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+opengl.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
+opengl.obj : error LNK2001: unresolved external symbol glfwGetTime
+opengl.obj : error LNK2001: unresolved external symbol glfwGetKey
+opengl.obj : error LNK2001: unresolved external symbol glfwPollEvents
+opengl.obj : error LNK2001: unresolved external symbol glfwInit
+opengl.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+opengl.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+opengl.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+opengl.obj : error LNK2001: unresolved external symbol glfwWindowHint
+opengl.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+opengl.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
+SnakeGame.obj : error LNK2001: unresolved external symbol glfwTerminate
+SnakeGame.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\x64\Release\SnakeLab4.exe : fatal error LNK1120: 14 unresolved externals

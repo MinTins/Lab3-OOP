@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\</FILEPATH>
+      <FILENAME>opengl.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OpenGL::renderData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OpenGL::{ctor}</FUNCTION>
+    <DECORATED>??0OpenGL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OpenGL::renderData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\</FILEPATH>
+      <FILENAME>opengl.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OpenGL::shaderProgram' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OpenGL::{ctor}</FUNCTION>
+    <DECORATED>??0OpenGL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OpenGL::shaderProgram</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\</FILEPATH>
+      <FILENAME>opengl.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OpenGL::window' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OpenGL::{ctor}</FUNCTION>
+    <DECORATED>??0OpenGL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OpenGL::window</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mintnt\OneDrive\Документы\SnakeGame-main\</FILEPATH>
+      <FILENAME>opengl.cpp</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'GL_KEY' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>OpenGL::GetKey</FUNCTION>
+    <DECORATED>?GetKey@OpenGL@@QEAA?AW4GL_KEY@@XZ</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
