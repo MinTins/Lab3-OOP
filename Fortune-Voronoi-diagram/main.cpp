@@ -1,13 +1,20 @@
-#include <GL/glew.h>
-#include <GL/glut.h>
-#include "Voronoi.h"
-#include "VPoint.h"
+/*
+K-23 Flakey Roman
+
+Fortune-Voronoi diagram
+*/
+
 
 
 #include <iostream>
 #include<string>
 #include <fstream>
 #include <sstream>
+
+#include <GL/glew.h>
+#include <GL/glut.h>
+#include "Voronoi.h"
+#include "VPoint.h"
 
 
 void display(void);
