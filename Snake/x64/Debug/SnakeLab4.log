@@ -10,8 +10,24 @@ D:\Python\StudHM\oop\Lab3-OOP\Snake\block.cpp(61,17): warning C4838: conversion 
 D:\Python\StudHM\oop\Lab3-OOP\Snake\block.cpp(61,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 D:\Python\StudHM\oop\Lab3-OOP\Snake\block.cpp(61,24): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
 D:\Python\StudHM\oop\Lab3-OOP\Snake\block.cpp(61,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+<<<<<<< Updated upstream
   snake.cpp
   Generating Code...
   LINK : D:\Python\StudHM\oop\Lab3-OOP\Snake\x64\Debug\Snake.exe not found or not built by the last incremental link; performing full link
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+=======
+  opengl.cpp
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(91,23): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(135,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(135,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(135,9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,32): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,32): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,41): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,41): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,50): warning C4838: conversion from 'float' to 'unsigned char' requires a narrowing conversion
+D:\Python\StudHM\oop\Lab3-OOP\Snake\opengl.cpp(143,50): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+  snake.cpp
+  Generating Code...
+>>>>>>> Stashed changes
   SnakeLab4.vcxproj -> D:\Python\StudHM\oop\Lab3-OOP\Snake\x64\Debug\Snake.exe

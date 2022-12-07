@@ -3,7 +3,11 @@
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+<<<<<<< Updated upstream:Fortune-Voronoi-diagram/NVoronoi.vcxproj.filters
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+=======
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+>>>>>>> Stashed changes:Snake/SnakeLab4.vcxproj.filters
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
@@ -15,6 +19,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream:Fortune-Voronoi-diagram/NVoronoi.vcxproj.filters
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -25,10 +30,26 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="VParabola.cpp">
+=======
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+>>>>>>> Stashed changes:Snake/SnakeLab4.vcxproj.filters
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream:Fortune-Voronoi-diagram/NVoronoi.vcxproj.filters
     <ClInclude Include="Voronoi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -43,5 +64,19 @@
     <None Include="VEdge.h">
       <Filter>Header Files</Filter>
     </None>
+=======
+    <ClInclude Include="opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snakedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes:Snake/SnakeLab4.vcxproj.filters
   </ItemGroup>
 </Project>

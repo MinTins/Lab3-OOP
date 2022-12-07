@@ -27,6 +27,9 @@ D:\Python\StudHM\oop\Lab3-OOP\Snake\Snake.cpp(204,13): warning C4244: 'argument'
 D:\Python\StudHM\oop\Lab3-OOP\Snake\Snake.cpp(205,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
   glad.c
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 opengl.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: __cdecl OpenGL::OpenGL(int,int,char const *,bool,int)" (??0OpenGL@@QEAA@HHPEBD_NH@Z)
 opengl.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: __cdecl OpenGL::OpenGL(int,int,char const *,bool,int)" (??0OpenGL@@QEAA@HHPEBD_NH@Z)
@@ -40,6 +43,7 @@ opengl.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in
 opengl.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: __cdecl OpenGL::OpenGL(int,int,char const *,bool,int)" (??0OpenGL@@QEAA@HHPEBD_NH@Z)
 opengl.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl OpenGL::paintWindow(void)" (?paintWindow@OpenGL@@QEAAXXZ)
 opengl.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "public: __cdecl OpenGL::OpenGL(int,int,char const *,bool,int)" (??0OpenGL@@QEAA@HHPEBD_NH@Z)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 opengl.obj : error LNK2001: unresolved external symbol glad_glClear
 opengl.obj : error LNK2001: unresolved external symbol glad_glClearColor
@@ -72,6 +76,11 @@ opengl.obj : error LNK2001: unresolved external symbol glad_glGenVertexArrays
 SnakeGame.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl OpenGL::~OpenGL(void)" (??1OpenGL@@QEAA@XZ)
 SnakeGame.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl OpenGL::isClosing(void)" (?isClosing@OpenGL@@QEAA_NXZ)
 D:\Python\StudHM\oop\Lab3-OOP\Snake\x64\Debug\Snake.exe : fatal error LNK1120: 43 unresolved externals
+=======
+Snake.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl OpenGL::~OpenGL(void)" (??1OpenGL@@QEAA@XZ)
+Snake.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl OpenGL::isClosing(void)" (?isClosing@OpenGL@@QEAA_NXZ)
+D:\Python\StudHM\oop\Lab3-OOP\Snake\x64\Debug\Snake.exe : fatal error LNK1120: 14 unresolved externals
+>>>>>>> Stashed changes
 =======
 Snake.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl OpenGL::~OpenGL(void)" (??1OpenGL@@QEAA@XZ)
 Snake.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl OpenGL::isClosing(void)" (?isClosing@OpenGL@@QEAA_NXZ)
