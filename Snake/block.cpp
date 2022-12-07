@@ -1,5 +1,3 @@
-//block class that represents a rectangle game object with position, size and velocity.
-
 
 #include "block.h"
 Block::Block()

@@ -1,3 +1,4 @@
+
 #ifndef BLOCK_H
 #define BLOCK_H
 
@@ -48,6 +49,9 @@ private:
 	Block* before;
 	Block* after;
 };
+
+
+
 
 
 

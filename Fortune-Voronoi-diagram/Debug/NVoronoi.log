@@ -1,6 +1,4 @@
 ﻿  main.cpp
 D:\Python\StudHM\oop\Lab3-OOP\Fortune-Voronoi-diagram\main.cpp(131,23): warning C4309: 'argument': truncation of constant value
 D:\Python\StudHM\oop\Lab3-OOP\Fortune-Voronoi-diagram\main.cpp(131,18): warning C4309: 'argument': truncation of constant value
-  VPoint.h
-  Generating Code...
   NVoronoi.vcxproj -> D:\Python\StudHM\oop\Lab3-OOP\Fortune-Voronoi-diagram\Debug\NVoronoi.exe

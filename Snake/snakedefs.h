@@ -1,3 +1,4 @@
+
 #ifndef SNAKE_DEFS_H
 #define SNAKE_DEFS_H
 

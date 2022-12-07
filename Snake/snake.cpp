@@ -1,4 +1,3 @@
-//a snake class for a snake game where the snake moves around and growths when it eats food.
 
 #include "snake.h"
 Snake::Snake()

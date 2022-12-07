@@ -15,7 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream:Snake/SnakeLab4.vcxproj.filters
     <ClCompile Include="opengl.cpp">
+=======
+    <ClCompile Include="glad.c">
+>>>>>>> Stashed changes:Snake/Snake.vcxproj.filters
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SnakeGame.cpp">
@@ -24,12 +28,33 @@
     <ClCompile Include="block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SnakeGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+<<<<<<< Updated upstream:Snake/SnakeLab4.vcxproj.filters
+    <ClCompile Include="glad.c">
+=======
+    <ClCompile Include="block.cpp">
+>>>>>>> Stashed changes:Snake/Snake.vcxproj.filters
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snakedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="opengl.h">

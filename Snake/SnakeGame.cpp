@@ -1,10 +1,3 @@
-/*
-Lab3 part-alternative
-K-23 Flakey Roman
-
-Description: main application file for the snake game, provides startupand shutdown, and the main game - loop.now added movement controls.!
-*/
-
 
 
 #include<iostream>
@@ -156,10 +149,12 @@ bool update(Snake& snake, Block borders[], Block& food, float deltaTime)
 			collision = CollisionChecks(snake, borders);
 		}
 
-	}
+	}//end distance check
 
 	return collision;
-}
+}//end update
+
+
 void render(OpenGL& window, Block borders[], Snake snake, Block food)
 {
 	window.clearWindow();
@@ -188,7 +183,7 @@ bool CollisionChecks(Snake snake, Block borders[])
 	}
 
 	return collide;
-}
+}//end collision
 Block NextFood(Snake snake)
 {
 	Block food = Block(0, 0, BLOCK_SIZE, BLOCK_SIZE, FOOD_COLOR);
@@ -207,7 +202,7 @@ Block NextFood(Snake snake)
 		placed = !snake.hitBlock(&food, true);								
 
 
-	}
+	}//while not placed
 
 	return food;
-}
+}//end NextFood

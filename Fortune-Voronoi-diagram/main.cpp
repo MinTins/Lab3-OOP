@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 
 	std::cout << "K-23 Flakey Roman\nFortune-Voronoi Diagram\n\nChoose method:\n	1) random point\n	2) own points" << std::endl;
 	std::cin >> mode;
-	/**/
+	
 
 	if (mode == 1) {
 
@@ -81,7 +81,7 @@ int main(int argc, char** argv)
 			);
 
 			dir->push_back(
-				new VPoint(x,y)
+				new VPoint(x-0.5,y-0.5)
 			);
 		
 			}

@@ -1,3 +1,4 @@
+
 #ifndef SNAKE_H
 #define SNAKE_H
 
@@ -34,6 +35,10 @@ private:
 	Direction next;
 	float distance;
 };
+
+
+
+
 
 
 #endif
