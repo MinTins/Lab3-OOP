@@ -42,9 +42,9 @@ enum Color
 	Purple = 0x80008000
 };
 
-const Color BORDER_COLOR{ Teal };
-const Color SNAKE_COLOR{Red};
-const Color FOOD_COLOR{ Fuchsia };
+const Color BORDER_COLOR{ Black };
+const Color SNAKE_COLOR{ Green };
+const Color FOOD_COLOR{ Blue };
 const int SNAKE_HEAD{ 0 };
 const float SNAKE_VELOCITY{ BLOCK_SIZE * 5 };
 
